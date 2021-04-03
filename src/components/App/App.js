@@ -22,7 +22,7 @@ class App extends Component{
       playing: true,
       previousTileIndex: null,
       toBeCleared: null,
-      tiles: createTiles(state.tiles),
+      tiles: createTiles(state.numTiles),
     }))
   }
 
